@@ -21,3 +21,7 @@ mkdir miweb     //Crear directorio
 //////////////////////////////////////////////////////
 
 git init        //Inicializar un proyecto, en la carpeta actual
+git status
+git status -s
+git add nombrearchivo.ext
+git commit -m "Descripcion"
