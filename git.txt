@@ -1,1 +1,23 @@
-Aqui se guardaran las notas tecninas de GIT
+LINEAS DE PARAMETRIZACION Y USO DE GIT
+
+git --version       // Verificar la version de git
+
+// Registro de usuario
+git config --global user.name "Mau Toapanta"            //Definicon de usuario
+git config --global user.email soporte.gmsec@gmail.com  //Definicion de email
+git config --global core.editor "code --wait"           //Espera a que el terminal se cierre
+git config --global -e                                  //Archivos de configuración global
+git config --global core.autocrlt true                  //true->windows   input->mac Configuracion del salto de linea
+git config -h                                           //Listado de opciones de Configuracion
+
+// Manejo de Archivos
+ls              //Listado del contenido de un directorio
+ls -a           //Todos los archivos ocultos
+pwd             //Directorio actual
+cd              //Entrar a directorio
+cd ..           //Salir de directorio
+mkdir miweb     //Crear directorio
+
+//////////////////////////////////////////////////////
+
+git init        //Inicializar un proyecto, en la carpeta actual
