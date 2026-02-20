@@ -20,8 +20,14 @@ mkdir miweb     //Crear directorio
 
 //////////////////////////////////////////////////////
 
-git init        //Inicializar un proyecto, en la carpeta actual
-git status
-git status -s
-git add nombrearchivo.ext
-git commit -m "Descripcion"
+git init                        //Inicializar un proyecto, en la carpeta actual
+git status                      //Muestra el estado de los cambios
+git status -s                   //Muestra el estado en resumen
+git add nombrearchivo.ext       //Añade los cambios al area de stage
+git commit -m "Descripcion"     //Compromete o Commitea los cambios antes de cargar al server
+
+Sincronizar con GitHub
+git branch -M main              //Define la rama donde se esta trabajando
+git remote add origin https://github.com/gmsec-developer/notas.git      //Dirección de GitHub
+git push -u origin main         // envia los archivos locales al repositorio de GitHub
+
